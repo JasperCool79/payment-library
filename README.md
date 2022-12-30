@@ -72,7 +72,7 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 
 ## Git Clone
 ```
-git clone https://github.com/JasperCool79/MicroEcommerce.git
+https://github.com/JasperCool79/payment-library.git
 ```
 ## Compoer Instal
 ```
@@ -81,20 +81,18 @@ composer install
 
 ## .env setup
 ```
-change .env.example to .env
+check db and .env
 ```
 ## db setup
 ```
-create new db with the name "my_shop" in phpMyadmin MySQL 
-then import my_shop.sql
+create new db with name laravel
 ```
 ### Start Serve
 ```
+php artisan migrate
+```
+### Run App
+```
 php artisan serve
-```
-### Admin Crendital
-```
-email => admin@gmail.com
-password => 12345678
 ```
 
